@@ -1,0 +1,60 @@
+# System/OS Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# ML & Training Artifacts
+logs/
+runs/
+tensorboard_logs/
+lightning_logs/
+*.log
+data/
+datasets/
+raw_data/
+processed_data/
+
+# Jupyter & Colab
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_metadata
+
+# Editor & IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+
+# Build & Distribution
+dist/
+build/
+*.egg-info/
+.eggs/
+.tox/
+
+# Secrets
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Project-specific
+*.mp4

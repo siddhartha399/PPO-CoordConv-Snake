@@ -1,0 +1,15 @@
+# --- Core Engine ---
+# We use torch >= 2.0 to enable @torch.compile and improved performance
+torch>=2.0.0
+numpy>=1.24.0
+
+# --- Visualization & Monitoring ---
+# Pillow is required for the rendering engine (PIL)
+pillow>=10.0.0
+# Tensorboard is required for the training metrics logging
+tensorboard>=2.14.0
+# IPython is required for live display in Jupyter/Colab notebooks
+ipython>=8.0.0
+# imageio + ffmpeg plugin are required for the evaluate.py dashboard video rendering
+imageio>=2.34.0
+imageio-ffmpeg>=0.4.0
